@@ -9,12 +9,12 @@ import Shop from './pages/Shop';
 
 const AppRouter = () => 
   <Routes>
-    <Routes path='/' element={ <Home/>} />
-    <Routes path='/about' element={ <AboutUs/>} />
-    <Routes path='/artist' element={ <Artist />} />
-    <Routes path='/gallery' element={ <Gallery />} />
-    <Routes path='/team' element={ <OurTeam />} />
-    <Routes path='/shop' element={ <Shop />} />
+    <Route path='/' element={ <Home/>} />
+    <Route path='/about' element={ <AboutUs/>} />
+    <Route path='/artist' element={ <Artist />} />
+    <Route path='/gallery' element={ <Gallery />} />
+    <Route path='/team' element={ <OurTeam />} />
+    <Route path='/shop' element={ <Shop />} />
   </Routes>
 
 export default AppRouter; 
