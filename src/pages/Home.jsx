@@ -1,9 +1,11 @@
 import React from 'react';
+import Carousel from '../components/templates/carousel/Carousel';
+import carouselImages from '../assets/config/carouselArray.json';
 
 const Home = () => {
   return(
     <>
-      Home works 
+      <Carousel carouselImages={carouselImages}/>
     </>
   )
 }
