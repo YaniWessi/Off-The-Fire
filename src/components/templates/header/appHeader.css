@@ -1,7 +1,10 @@
 .app-header {
   text-align: center;
   background-color: black;
-
+  height: 11vh;
+  border: 1px solid red; 
+  width: 100vw;
+  margin-top:0px;
 }
 
 .app-header h3 {
@@ -10,9 +13,11 @@
 }
 
 .app-header a {
+
   margin: 1rem;
   color: white;
   font-weight: normal;
   font-size: 16px;
   text-decoration: none;
+  
 }
