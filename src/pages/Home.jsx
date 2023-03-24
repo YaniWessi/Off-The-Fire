@@ -8,7 +8,7 @@ const Home = () => {
   return(
     <>
       <Carousel carouselImages={carouselImages}/>
-      <AppVideo source="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume"/>
+      <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" />
 
     </>
   )

@@ -1,5 +1,6 @@
 import React from 'react'; 
 import AppHeader from './components/templates/header/AppHeader';
+import '../src/components/templates/header/appHeader.css'
 
 const AppLayout = ({ children }) => {
   return(

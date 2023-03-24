@@ -5,6 +5,7 @@
   border: 1px solid red; 
   width: 100vw;
   margin-top:0px;
+  /* position: fixed; */
 }
 
 .app-header h3 {

@@ -1,9 +1,10 @@
 import  React from "react";
+import '../atomStyles.css'
 
-const AppVideo = ({ source, title }) => {
+const AppVideo = ({ src, title }) => {
 
   return(
-    <iframe source={source} title={title} />
+    <iframe className="app-video"  src={src} title={title} />
   )
 }
 
