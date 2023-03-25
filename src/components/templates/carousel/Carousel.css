@@ -1,11 +1,12 @@
 .container-slider {
-    position: fixed;
+    /* position: fixed; */
     /* border: 2px solid blue; */
     /* width: 800px; */
     max-width: 100%;
     height: 500px;
     margin: 0px auto 0;
     position: relative;
+    top:112px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     border:1px solid red;

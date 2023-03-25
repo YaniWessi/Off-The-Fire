@@ -6,7 +6,7 @@ import './appHeader.css';
 
 
 const AppHeader = () => 
-    <div className="app-header">
+    <div  className="app-header">
        <Logo />
        <NavLinks links={links} />
     </div>

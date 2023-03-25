@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "imgKey": "black_gray_bennie",
+    "alt": "Lorem"
+  },
+  {
+    "id": 2,
+    "imgKey": "black_multi_color_long_sleeve",
+    "alt": "Lorem"
+  },
+  {
+    "id": 3,
+    "imgKey": "blue_sweater",
+    "alt": "Lorem"
+  },
+  {
+    "id": 4,
+    "imgKey": "gray_sweater",
+    "alt": "Lorem"
+  },
+  {
+    "id": 5,
+    "imgKey": "green_black_hoody",
+    "alt": "Lorem"
+  },
+  {
+    "id": 6,
+    "imgKey": "green_orange_crew_neck",
+    "alt": "Lorem"
+  },
+  {
+    "id": 7,
+    "imgKey": "orange_blue_bennie",
+    "alt": "Lorem"
+  },
+   {
+    "id": 8,
+    "imgKey": "red_black_long_sleeve",
+    "alt": "Lorem"
+  },
+  {
+    "id": 9,
+    "imgKey": "white_black_long_sleeve",
+    "alt": "Lorem"
+  },
+  {
+    "id": 10,
+    "imgKey": "white_green_long_sleeve",
+    "alt": "Lorem"
+  }
+]
