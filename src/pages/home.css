@@ -1,0 +1,25 @@
+
+
+.home-container{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.project-container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 23%;
+  overflow: auto;
+  overscroll-behavior-inline: contain;
+  margin: 200px 0px 50px 0;
+  height: 522px;
+  width: 1918px;
+}
+/* 
+.app-video {
+  margin-left: 70px;
+  margin-top: 9px;
+  width: 1790px;
+  height: 400px;
+} */
