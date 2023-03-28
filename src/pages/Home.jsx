@@ -19,7 +19,7 @@ const Home = () => {
       <div className="products-container">
       {IMAGEJSON.map(img => {
         return (
-          <ProductImage key={img.id} imgName={img.imgKey} alt={img.alt} />
+          <ProductImage classname={"product-image"} key={img.id} imgName={img.imgKey} alt={img.alt} />
         )
       })}
       </div>
