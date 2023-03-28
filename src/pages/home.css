@@ -6,15 +6,17 @@
  gap: 5px;
 }
 
-.project-container{
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 23%;
-  overflow: auto;
-  overscroll-behavior-inline: contain;
-  margin: 200px 0px 50px 0;
-  height: 522px;
-  width: 1918px;
+.products-container{
+   position: relative;
+    bottom: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 23%;
+    overflow: auto;
+    overscroll-behavior-inline: contain;
+    margin: 200px 0px 50px 0;
+    height: 522px;
+    width: 1918px;
 }
 /* 
 .app-video {

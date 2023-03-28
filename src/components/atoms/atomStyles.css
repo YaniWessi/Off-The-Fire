@@ -3,3 +3,9 @@
   width: 1790px;
   height: 400px;
 }
+
+.product-image {
+  height:300px;
+  margin:0px;
+  width: 300px;
+}

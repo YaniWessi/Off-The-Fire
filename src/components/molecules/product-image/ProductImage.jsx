@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AppImage from '../../atoms/applink/app-image/AppImage';
 
-const ProductImage = ({ imgName, alt }) => {
+const ProductImage = ({ classname, imgName, alt }) => {
   
   const [imgSrc, setImgSrc] = useState('');
 
@@ -23,7 +23,7 @@ const ProductImage = ({ imgName, alt }) => {
   //   loadImage(imgName);
   // },[imgName]);
   
-  return <AppImage source={image} alt={alt} />
+  return <AppImage source={image} alt={alt} classname={classname}/>
 }
 
 export default ProductImage;
