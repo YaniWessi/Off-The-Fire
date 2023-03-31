@@ -1,11 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import AboutUs from './pages/AboutUs';
-import Artist from './pages/Artist';
-import Gallery from './pages/Gallery';
-import Home from './pages/Home';
-import OurTeam from './pages/OurTeam';
-import Shop from './pages/Shop';
+import { Home, Shop, AboutUs, Accessibility, Artist, ContactUs, Faq, Gallery, LegalNotice, OurTeam, Privacy, TermsOfSale } from './pages';
 
 const AppRouter = () => 
   <Routes>

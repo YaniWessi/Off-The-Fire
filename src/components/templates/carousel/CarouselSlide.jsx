@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import carouselContext from '../../../utils/contexts/CarouselContext';
-import AppImage from '../../atoms/applink/app-image/AppImage';
+import AppImage from '../../atoms/app-media/app-image/AppImage';
 
 const CarouselSlide = ({ id , imgName }) =>{
 
