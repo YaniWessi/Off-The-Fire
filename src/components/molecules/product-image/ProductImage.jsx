@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AppImage from '../../atoms/applink/app-image/AppImage';
+import AppImage from '../../atoms/app-media/app-image/AppImage';
 
 const ProductImage = ({ classname, imgName, alt }) => {
   

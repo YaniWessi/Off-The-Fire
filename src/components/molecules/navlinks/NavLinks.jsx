@@ -1,5 +1,5 @@
 import React from "react";
-import AppLink from "../../atoms/applink/AppLink";
+import AppLink from "../../atoms/applink/RouterLink";
 
 const NavLinks = ({links}) =>
   <div className="nav-links">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from '../components/templates/carousel/Carousel';
 import carouselImages from '../assets/config/carouselArray.json';
-import AppVideo from '../components/atoms/app-vidoe/AppVideo';
+import AppVideo from '../components/atoms/app-media/app-video/AppVideo';
 import ProductImage from '../components/molecules/product-image/ProductImage';
 import IMAGEJSON from '../assets/config/carouselImages.json';
 import './home.css';
@@ -23,7 +23,7 @@ const Home = () => {
         )
       })}
       </div>
-
+      <AppVideo  src="https://www.youtube.com/embed/Y9HsRzWT76w" title="Resume" />
     </div>
   )
 }

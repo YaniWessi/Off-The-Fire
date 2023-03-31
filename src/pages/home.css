@@ -8,7 +8,7 @@
 
 .products-container{
    position: relative;
-   top: 0px;
+   top: 60px;
     /* bottom: 100px; */
     display: grid;
     grid-auto-flow: column;
