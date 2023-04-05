@@ -16,10 +16,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font-weight: normal;
     vertical-align: baseline;
     font-family: inherit;
+   
 }
 
 body {
-  background: black;
+  background-image: url("https://gjepc.org/solitaire/wp-content/uploads/2020/09/GJEPC-Discusses-Ways-To-Attract-Foreign-Investment-In-Gold-Refining-655x600-1.jpg");
 }
 /* Remove default list styling */
 ol, ul {
