@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Shop, AboutUs, Accessibility, Artist, ContactUs, Faq, Gallery, LegalNotice, OurTeam, Privacy, TermsOfSale } from './pages';
 
+
 const AppRouter = () => 
   <Routes>
     <Route path='/' element={ <Home/>} />

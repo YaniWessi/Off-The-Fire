@@ -14,7 +14,7 @@ const Home = () => {
        <Carousel carouselImages={carouselImages} />
       </div>
  
-      <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" />
+      <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" classname="video-one" />
 
       <div className="products-container">
       {IMAGEJSON.map(img => {
@@ -23,7 +23,7 @@ const Home = () => {
         )
       })}
       </div>
-      <AppVideo  src="https://www.youtube.com/embed/Y9HsRzWT76w" title="Resume" />
+      <AppVideo  src="https://www.youtube.com/embed/Y9HsRzWT76w" title="Resume" classname="video-two" />
     </div>
   )
 }

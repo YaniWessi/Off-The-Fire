@@ -1,24 +1,40 @@
 
 .footer {
   display: flex;
-  border: 1px solid white;
-  height: 150px;
-  margin: 40px;
+  /* border: 1px solid white; */
+  height: 180px;
+  margin: 0px;
+  background-color: black;
 }
 
 .section-one {
+  display: flex;
+  flex-direction: column;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 300px;
   margin: 10px 100px 200px;
   height: 140px;
 }
 
 .section-two {
+
+  display: flex;
+  flex-direction: column;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 300px;
   margin: 10px 100px 200px;
   height: 140px;
 
+}
+
+.section-one a {
+
+  margin: 10px;
+}
+
+.section-two a {
+
+  margin: 10px;
 }
