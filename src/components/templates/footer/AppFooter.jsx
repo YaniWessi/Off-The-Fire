@@ -7,8 +7,8 @@ import '../templateStyles.css';
 
 const AppFooter = () => 
 <footer className="footer">
-  <SectionLinks sectionId='footer-one' sectionTitle="A Section" links={footer1} classname={'section-one'} />
-  <SectionLinks sectionId='footer-two' sectionTitle="Another Section" links={footer2} classname={'section-two'} />
+  <SectionLinks sectionId='footer-one' sectionTitle="" links={footer1} classname={'section-one'} />
+  <SectionLinks sectionId='footer-two' sectionTitle="" links={footer2} classname={'section-two'} />
 </footer>
 
 export default AppFooter;

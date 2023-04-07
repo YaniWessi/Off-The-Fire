@@ -20,7 +20,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-  background-image: url("https://gjepc.org/solitaire/wp-content/uploads/2020/09/GJEPC-Discusses-Ways-To-Attract-Foreign-Investment-In-Gold-Refining-655x600-1.jpg");
+  /* background-image: url("https://gjepc.org/solitaire/wp-content/uploads/2020/09/GJEPC-Discusses-Ways-To-Attract-Foreign-Investment-In-Gold-Refining-655x600-1.jpg"); */
+  background: white;
+  overflow-x: hidden;
 }
 /* Remove default list styling */
 ol, ul {
