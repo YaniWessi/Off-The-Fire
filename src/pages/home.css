@@ -20,6 +20,7 @@
     width: 1918px;
     /* border: 1px solid red; */
     padding:5px;
+    /* border: 3px solid red; */
 }
 
 .video-one {
@@ -43,6 +44,19 @@
 }
 
 
+.product-image {
+  height:300px;
+  margin:0px;
+  width: 300px;
+  margin-top: 0px;
+ 
+}
+
+.shop-link {
+  position: relative;
+  top: 120px;
+  left: 30px;
+}
 
 
 
