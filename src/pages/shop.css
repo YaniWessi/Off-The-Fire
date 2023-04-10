@@ -1,0 +1,30 @@
+
+.product-card-in-shop {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* create three columns with equal width */
+  grid-gap: 5px;
+  align-items:center;
+  position:relative; /* set position to absolute */
+  top: 50%; /* set top to 50% */
+  left:200px; /* set left to 50% */
+  /* margin-left: 190px; */
+  border: 8px solid #d1d1d1;
+  padding-left: 110px;
+  padding-top: 130px;
+}
+
+
+
+
+.product-card-in-shop h3{
+  font-size: 18px;
+}
+
+.shop-image {
+  height:300px;
+  margin:0px;
+  width: 300px;
+  margin-top: 0px;
+  /* transform: translate(-50%, -50%); */
+}

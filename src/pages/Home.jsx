@@ -16,6 +16,7 @@ const Home = () => {
  
       <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" classname="video-one" />
 
+      <a href="./Shop" className="shop-link"><h5>Go to Shop{"---->"}</h5></a>
       <div className="products-container">
       {IMAGEJSON.map(img => {
         return (
