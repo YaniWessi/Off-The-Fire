@@ -23,10 +23,5 @@
     "id": 4,
     "label": "Gallery",
     "path": "/gallery"
-  },
-  {
-    "id": 5,
-    "label": "Our Team",
-    "path": "/team"
   }
 ]
