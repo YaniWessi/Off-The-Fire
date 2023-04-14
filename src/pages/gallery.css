@@ -1,0 +1,20 @@
+.img-container{
+
+  height: 822px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  align-items:center;
+  padding-top: 130px;
+  padding-left: 110px;
+
+}
+
+
+.img-card{
+
+  width: 300px;
+  height: 200px;
+  border: 1px solid blue;
+  margin: 20px;
+}
