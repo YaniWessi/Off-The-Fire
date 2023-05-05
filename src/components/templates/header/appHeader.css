@@ -24,3 +24,18 @@
   text-decoration: none;
   
 }
+
+@media (max-width: 375px ) {
+
+
+ .app-header {
+   position: fixed;
+   width: 116vw;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+  .all-links {
+   display: none;
+  }
+  }

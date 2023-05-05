@@ -11,7 +11,7 @@ const Home = () => {
   return(
     <div className="home-container">
       <div>     
-       <Carousel carouselImages={carouselImages} />
+       <Carousel carouselImages={carouselImages} classname={"home-carousel"}/>
       </div>
  
       <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" classname="video-one" />
