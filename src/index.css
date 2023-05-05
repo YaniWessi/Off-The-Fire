@@ -24,6 +24,12 @@ body {
   background: white;
   overflow-x: hidden;
 }
+
+@media (max-width: 375px){
+    body{
+        
+    }
+}
 /* Remove default list styling */
 ol, ul {
     list-style: none;

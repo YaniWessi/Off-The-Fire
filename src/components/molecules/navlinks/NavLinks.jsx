@@ -1,10 +1,10 @@
 import React from "react";
 import AppLink from "../../atoms/applink/RouterLink";
 
-const NavLinks = ({links}) =>
+const NavLinks = ({links, classname}) =>
   <div className="nav-links">
     {links.map((link) => {
-     return <AppLink key={link.id} link={link}/>
+     return <AppLink key={link.id} link={link} classname={classname} />;
     })}
   </div>
   

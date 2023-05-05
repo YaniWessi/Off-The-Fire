@@ -16,6 +16,18 @@ const AppHeader = () => {
        <div className="all-links">
        <NavLinks links={links} />
        </div>
+
+       <div onClick={() => setNav(!nav)} className="fa-icons">
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+       </div>
+
+       {nav && (
+           <div className="second-links">
+            <NavLinks links={links} classname={"media-links"}/>
+           </div>
+       )
+
+       }
     </div>
 
     )
