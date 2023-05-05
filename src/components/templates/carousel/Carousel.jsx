@@ -6,14 +6,14 @@ import CarouselSlide from "./CarouselSlide";
 import CarouselIndicators from "./CarouselIndicators";
 
 
-export default function Carousel({carouselImages}) {
+export default function Carousel({carouselImages, classname}) {
 
     return (
       <CarouselProvider carouselImages={carouselImages}>
-            <div className="container-slider">
+            <div className="container-slider" classname={classname}>
             {carouselImages.map((obj,index) => {
                 return (
-                   <CarouselSlide key={obj.id} id={obj.id} imgName={index + 1}/>
+                   <CarouselSlide key={obj.id} id={obj.id} imgName={index + 1} />
                 )
             })}
             <CarouselButton direction={"next"}/>
