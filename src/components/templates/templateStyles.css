@@ -38,3 +38,11 @@
 
   margin: 10px;
 }
+
+@media (max-width: 375px ) {
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+}

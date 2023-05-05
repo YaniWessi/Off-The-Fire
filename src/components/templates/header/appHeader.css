@@ -2,11 +2,13 @@
   text-align: center;
   background-color: black;
   height: 11vh;
-  /* border: 1px solid red;  */
   width: 100vw;
   margin-top:0px;
   position: fixed;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .app-header h3 {
@@ -16,26 +18,43 @@
 }
 
 .app-header a {
-
   margin: 3rem;
   color: white;
   font-weight: normal;
   font-size: 16px;
   text-decoration: none;
-  
+}
+
+.fa-icons {
+  display: none;
 }
 
 @media (max-width: 375px ) {
-
-
  .app-header {
-   position: fixed;
-   width: 116vw;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+   flex-direction: row;
+   height: auto;
+   padding: 1rem;
+   overflow-x: hidden;
  }
-  .all-links {
+
+ .fa-icons {
+   display: block;
+   margin-right: 1rem;
+   z-index: 10;
+ }
+
+ .second-links {
+   display:grid;
+ }
+
+ .media-links {
+  text-transform: capitalize;
+  font-size: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+ }
+ .all-links {
    display: none;
-  }
-  }
+ }
+}
