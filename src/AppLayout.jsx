@@ -1,5 +1,6 @@
 import React from 'react'; 
-import AppHeader from './components/templates/header/AppHeader';
+// import AppHeader from './components/templates/header/AppHeader';
+import Header from './components/templates/header/Header';
 import AppFooter from './components/templates/footer/AppFooter';
 import '../src/components/templates/header/appHeader.css'
 // import './appLayout.css';
@@ -7,7 +8,7 @@ import '../src/components/templates/header/appHeader.css'
 const AppLayout = ({ children }) => {
   return(
     <div className="app-layout">
-      <AppHeader />
+      <Header />
       { children }
       <AppFooter />
     </div>
