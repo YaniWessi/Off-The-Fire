@@ -2,7 +2,9 @@ import React, {useState, useEffect} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../molecules/logo/Logo";
 import NavLinks from "../../molecules/navlinks/NavLinks";
+import DropNavLinks from "../../molecules/navlinks/DropNavLinks";
 import links from '../../../assets/config/headerLinks.json';
+
 
 const Header = () => {
   const [ isNavbarOpen, setIsNavbarOpen ] = useState(false);
@@ -32,11 +34,8 @@ const Header = () => {
       <Logo />
       {isNavbarOpen ? (
         <nav className="fixed top-0 left-0 h-screen w-screen flex flex-col items-center justify-center gap-6 bg-mainColor transition duration-1000 bg-black transform translate-y-0">
-          {/* <NavLinks links={links} /> */}
-          <a href="/#" className="text-textColor">Home</a>
-          <a href="/#" className="text-textColor">My work</a>
-          <a href="/#" className="text-textColor">Blog</a>
-          <a href="/#" className="text-textColor">About me</a>
+          
+          <button  onClick={toggleNavbar}><DropNavLinks links={links} /></button>
           <button className="absolute top-2 right-2 nav-close-btn" onClick={toggleNavbar}>
             <FaTimes className="text-white" />
           </button>
