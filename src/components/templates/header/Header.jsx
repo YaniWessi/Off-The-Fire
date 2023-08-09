@@ -4,6 +4,8 @@ import Logo from "../../molecules/logo/Logo";
 import NavLinks from "../../molecules/navlinks/NavLinks";
 import DropNavLinks from "../../molecules/navlinks/DropNavLinks";
 import links from '../../../assets/config/headerLinks.json';
+import { Link } from "react-router-dom";
+
 
 
 const Header = () => {
@@ -31,7 +33,11 @@ const Header = () => {
 
   return (
     <header className="h-24 text-center bg-black  w-screen top-0 left-0 fixed z-10 flex justify-between items-center justify-end">
-      <Logo />
+
+      <Link to="/" className="no-underline">
+        <Logo />
+      </Link>
+
       {isNavbarOpen ? (
         <nav className="fixed top-0 left-0 h-screen w-screen flex flex-col items-center justify-center gap-6 bg-mainColor transition duration-1000 bg-black transform translate-y-0">
           
