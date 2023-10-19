@@ -17,7 +17,7 @@ const hideMenu = () => setIsShowingMenu(false)
 
     <div className="lg:hidden">
       {isShowingMenu ? 
-    
+       
         <nav className="fixed top-0 left-0 h-screen w-screen flex flex-col items-center justify-center gap-6 bg-mainColor transition duration-1000 bg-black transform translate-y-0">
           
           <button  onClick={showMenu}><DropNavLinks links={links} /></button>

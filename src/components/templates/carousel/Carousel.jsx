@@ -1,6 +1,6 @@
 import React from "react"; 
 import { CarouselProvider } from "../../../utils/contexts/CarouselContext";
-import './Carousel.css'; 
+
 import CarouselButton from './CarouselButton';
 import CarouselSlide from "./CarouselSlide";
 import CarouselIndicators from "./CarouselIndicators";
