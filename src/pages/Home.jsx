@@ -9,20 +9,21 @@ import './home.css';
 const Home = () => {
 
   return(
-    <div className="home-container">
-      <div>     
-       <Carousel carouselImages={carouselImages} classname={"home-carousel"}/>
-      </div>
+    <div className="home-container">   
+      <Carousel carouselImages={carouselImages} classname={"home-carousel"}/>
  
       <AppVideo  src="https://www.youtube.com/embed/xpcVZVtZPKI" title="Resume" classname="video-one" />
 
       <a href="./Shop" className="shop-link"><h5>Go to Shop{"---->"}</h5></a>
+
+      <div className="flex-1 flex items-center justify-center">
       <div className="products-container">
       {IMAGEJSON.map(img => {
         return (
           <ProductImage classname={"product-image"} key={img.id} imgName={img.imgKey} alt={img.alt} />
         )
       })}
+      </div>
       </div>
       <AppVideo  src="https://www.youtube.com/embed/Y9HsRzWT76w" title="Resume" classname="video-two" />
     </div>

@@ -8,7 +8,7 @@ import MobileMenu from "../../atoms/MobileMenu";
 
 
 const Header = () => 
-    <header className="h-24 text-center bg-black  w-screen top-0 left-0 fixed z-10 flex justify-between items-center justify-end">
+    <header className="h-24 text-center bg-black  w-screen top-0 left-0 sticky z-10 flex justify-between items-center justify-end">
 
       <Link to="/" className="no-underline">
         <Logo />
