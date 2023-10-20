@@ -9,18 +9,18 @@
    position: relative;
    top: 60px;
     /* bottom: 100px; */
-    display: grid;
+    white-space: nowrap;
     grid-auto-flow: column;
     grid-auto-columns: 23%;
     overflow: auto;
     overscroll-behavior-inline: contain;
     margin: 50px 0px 50px 0;
-    height: 310px;
+    height: 500px;
     width: 1918px;
     /* border: 1px solid red; */
     padding:5px;
     /* border: 3px solid red; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .video-one {
@@ -45,10 +45,10 @@
 
 
 .product-image {
-  height:300px;
-  margin:0px;
-  width: 300px;
-  margin-top: 0px;
+  height:inherit;
+  width: max-content;
+  /* border: 1px solid blue; */
+  display: inline-block;
  
 }
 
@@ -62,21 +62,32 @@
 @media (max-width: 375px ) {
 
   .shop-link {
-    color: red;
+    color:blue;
   }
 
 
   .products-container {
     position: relative;
     top: 60px;
-    display: grid;
-    grid-auto-flow: row;
-    overflow-y: scroll;
-    overscroll-behavior-inline: contain;
+    display: inline-block;
+    white-space: nowrap;
+    /* grid-auto-flow: row; */
+    overflow-y: auto;
+    /* overscroll-behavior-inline: contain; */
     margin: 50px 0px;
-    height: 310px;
+    height: 500px;
     width: 100%;
     padding: 5px;
+    /* border: 1px solid red; */
+ }
+
+ .product-image{
+  position: relative;
+  top: 2px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: max-content;
+  height: inherit;
  }
 
 }
