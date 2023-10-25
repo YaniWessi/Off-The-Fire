@@ -20,7 +20,7 @@ const hideMenu = () => setIsShowingMenu(false)
        
         <nav className="fixed top-0 left-0 h-screen w-screen flex flex-col items-center justify-center gap-6 bg-mainColor transition duration-1000 bg-black transform translate-y-0">
           
-          <button  onClick={showMenu}><DropNavLinks links={links} /></button>
+          <button  onClick={hideMenu}><DropNavLinks links={links} /></button>
           <button className="absolute top-2 right-2 nav-close-btn" onClick={hideMenu}>
             <FaTimes className="text-white" />
           </button>
