@@ -3,8 +3,8 @@
 
 .aboutus-container{
   margin: 0 auto;
-  /* border: 5px solid red; */
-  padding: 40px;
+  border: 5px solid red;
+  padding: 3em;
   height: 800px;
   padding-top: 140px;
   display:flex;
@@ -17,7 +17,7 @@
 
 .aboutus-container p{
   /* border:2px solid green; */
-  width: 800px;
-  font-size: 28px;
+  width: 25em;
+  font-size: 1.5em;
   color: white;
 }
