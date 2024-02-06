@@ -1,20 +1,15 @@
+ .merch{
+  width: 80%;
+ }
 
-.product-card-in-shop {
-  width: 1400px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* create three columns with equal width */
-  grid-gap: 5px;
+ .product-card-in-shop{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4em;
   align-items:center;
-  position:relative; /* set position to absolute */
-  top: 50%; /* set top to 50% */
-  left:200px; /* set left to 50% */
-  /* margin-left: 190px; */
-  border: 8px solid #d1d1d1;
-  padding-left: 110px;
-  padding-top: 130px;
-}
-
-
+  padding: 10em;
+  padding-left: 17em;
+ }
 
 
 .product-card-in-shop h3{
@@ -27,4 +22,22 @@
   width: 300px;
   margin-top: 0px;
   /* transform: translate(-50%, -50%); */
+}
+
+
+@media only screen and (max-width: 375px){
+
+  .merch {
+    border: 1px solid blue;
+    width: 20em;
+  }
+
+  .product-card-in-shop {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1em;
+  }
 }
