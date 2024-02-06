@@ -13,13 +13,13 @@ const Shop = () => {
         const {id, imgKey, alt, name} = img;
         return (
           
-            <div>
-              <ProductImage classname={"shop-image"} key={id} imgName={imgKey} alt={alt} />
-              <h3>{name}</h3>
-              <p>
-                This is a short description of the product.
-              </p>
-              <button variant="primary">Buy Now</button>
+            <div className='merch'>
+                <ProductImage classname={"shop-image"} key={id} imgName={imgKey} alt={alt} />
+                <h3>{name}</h3>
+                <p>
+                  This is a short description of the product.
+                </p>
+                <button variant="primary">Buy Now</button>
             </div>
         
         )
