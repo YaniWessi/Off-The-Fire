@@ -15,11 +15,6 @@
     "path": "/shop"
   },
   {
-    "id": 3,
-    "label": "Artists",
-    "path": "/artist"
-  },
-  {
     "id": 4,
     "label": "Gallery",
     "path": "/gallery"

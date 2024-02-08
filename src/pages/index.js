@@ -1,6 +1,5 @@
 export {default as AboutUs} from "./AboutUs.jsx"
 export {default as Accessibility} from "./Accessibility.jsx"
-export {default as Artist} from "./Artist.jsx"
 export {default as ContactUs} from "./ContactUs.jsx"
 export {default as Faq} from "./Faq.jsx"
 export {default as Gallery} from "./Gallery.jsx"
